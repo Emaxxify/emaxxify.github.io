@@ -1,210 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Odejobi Emmanuel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 1em;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 2em;
+            flex: 1;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+            width: 100%;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        footer ul li {
+            display: inline;
+            margin: 0 0.5em;
+        }
+
+        footer ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        img.profile-pic {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 1em;
+        }
+
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5em;
+            margin-bottom: 1em;
+        }
+
+        .resume-section {
+            margin-bottom: 2em;
+        }
+
+        .resume-section h3 {
+            margin-bottom: 0.5em;
+            color: #333;
+        }
+
+        .resume-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .resume-section ul li {
+            margin-bottom: 1em;
+        }
+
+        .job-title {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .job-duration {
+            font-style: italic;
+            color: #777;
+        }
+
+        .education-degree,
+        .education-institution {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5em;
+        }
+
+        .skill-list span {
+            background: #333;
+            color: #fff;
+            padding: 0.3em 0.6em;
+            border-radius: 3px;
+        }
+    </style>
 </head>
+
 <body>
-    <!-- Header -->
+
     <header>
-        <h1>Welcome to My Website</h1>
+        <h1>ODEJOBI EMMANUEL TOLULOPE</h1>
         <nav>
             <ul>
-                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-                <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
-                <li><a href="resume.html"><i class="fas fa-briefcase"></i> Resume</a></li>
-                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume">Resume</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Main content -->
-    <main>
-        <section>
-            <h2>Home Page</h2>
-            <p>Welcome to my personal website. Here, you'll find my work experience, education, skills, and how to contact me.</p>
-        </section>
-    </main>
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="profile.jpg.JPG" alt="Profile Picture" class="profile-pic">
+        <p>
+            Hello! I am Emmanuel Odejobi, an experienced customer service expert with two years of experience in the
+            gaming and casino industry. My role has equipped me with excellent communication skills, problem-solving
+            abilities, and emotional intelligence leading to a deep understanding of customer satisfaction.
+        </p>
+        <p>
+            I hold a degree in Political Science from Obafemi Awolowo University and am currently pursuing an MBA to
+            further enhance my business acumen and managerial skills. My academic background has provided me with a
+            strong foundation in critical thinking and strategic planning.
+        </p>
+        <p>
+            In addition to my customer service experience, I have completed a course in Java for app development and have
+            a keen interest in web design. These skills allow me to understand the technical aspects of software and web
+            development, making me a versatile professional in the tech space.
+        </p>
+        <p>
+            My previous role as an administrator has honed my organizational and mid-level managerial skills. I excel in
+            coordinating tasks, managing teams, and ensuring smooth operations within an organization.
+        </p>
+        <p>
+            Outside of work, I have a passion for football, traveling, and music. These hobbies keep me balanced and
+            provide me with new perspectives and inspiration.
+        </p>
+        <p>
+            My key skills include customer service, Java programming, web design, team management, and strategic planning.
+            I am always eager to learn and grow, continuously seeking opportunities to improve my skills and contribute to
+            innovative projects.
+        </p>
+    </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="social-icons">
-            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
-        </div>
-        <p>© 2024 My Website. All rights reserved.</p>
-    </footer>
-</body>
-</html>
-```
+    <section id="projects">
+        <h2>Projects</h2>
+        <!-- Content for projects goes here -->
+    </section>
 
-#### 2. **about.html** (About Me page)
+    <section id="blog">
+        <h2>Blog</h2>
+        <!-- Content for blog goes here -->
+    </section>
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
-<body>
-    <!-- Header -->
-    <header>
-        <h1>About Me</h1>
-        <nav>
+    <section id="contact">
+        <h2>Contact</h2>
+        <ul>
+            <li>Email: odejobiemmanuel@gmail.com</li>
+            <li>Phone: +2348137516351</li>
+        </ul>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <div class="resume-section">
+            <h3>Work Experience</h3>
             <ul>
-                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-                <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
-                <li><a href="resume.html"><i class="fas fa-briefcase"></i> Resume</a></li>
-                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li>
+                    <p class="job-title">Customer Service Expert - SportyBet Nigeria</p>
+                    <p class="job-duration">September 2022 - Present</p>
+                    <p>Managed customer interactions, resolved complaints, and ensured high levels of customer satisfaction.</p>
+                </li>
+                <li>
+                    <p class="job-title">Customer Service Associate - Bestfin Microfinance</p>
+                    <p class="job-duration">Feb 2020 - Dec 2021</p>
+                    <p>Coordinated office operations, managed schedules, and supported team efficiency.</p>
+                </li>
             </ul>
-        </nav>
-    </header>
-
-    <!-- Main content -->
-    <main>
-        <section>
-            <h2>My Story</h2>
-            <p>Hi! I’m a Customer Service Professional with a passion for improving client relationships and building long-term connections. I’ve worked in various roles, from customer service to management, and continue to pursue growth in my career.</p>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <div class="social-icons">
-            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
         </div>
-        <p>© 2024 My Website. All rights reserved.</p>
-    </footer>
-</body>
-</html>
-```
 
-#### 3. **resume.html** (Resume page)
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
-<body>
-    <!-- Header -->
-    <header>
-        <h1>My Resume</h1>
-        <nav>
+        <div class="resume-section">
+            <h3>Education</h3>
             <ul>
-                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-                <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
-                <li><a href="resume.html"><i class="fas fa-briefcase"></i> Resume</a></li>
-                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li>
+                    <p class="education-degree">MBA (Ongoing)</p>
+                    <p class="education-institution">Ahmadu Bello University</p>
+                </li>
+                <li>
+                    <p class="education-degree">Bachelor of Science in Political Science</p>
+                    <p class="education-institution">Obafemi Awolowo University</p>
+                </li>
             </ul>
-        </nav>
-    </header>
-
-    <!-- Main content -->
-    <main>
-        <section id="resume">
-            <h2>Resume</h2>
-
-            <!-- Work Experience -->
-            <div class="resume-section">
-                <h3>Work Experience</h3>
-                <ul>
-                    <li>
-                        <p class="job-title">Senior Customer Service Associate - Sporty Internet Limited</p>
-                        <p class="job-duration">October 2022 - Present</p>
-                        <p>Lead a team of customer support officers, providing mentorship, training, and performance feedback to ensure high-quality customer service.</p>
-                    </li>
-                    <li>
-                        <p class="job-title">Offline Manager/Field Marketer - Jiji.ng</p>
-                        <p class="job-duration">January 2022 - August 2022</p>
-                        <p>Registered and managed sellers from various sectors, promoting subscription packages to increase sales.</p>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Education -->
-            <div class="resume-section">
-                <h3>Education</h3>
-                <ul>
-                    <li>
-                        <p class="education-degree">MBA (Ongoing)</p>
-                        <p class="education-institution">Ahmadu Bello University</p>
-                    </li>
-                    <li>
-                        <p class="education-degree">B.Sc in Political Science</p>
-                        <p class="education-institution">Obafemi Awolowo University</p>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Certifications -->
-            <div class="resume-section">
-                <h3>Certifications</h3>
-                <ul>
-                    <li>CSM Fundamentals - CustomerSuccessU.org (Issued August 2024)</li>
-                    <li>Create Customer Support Data with Google Sheets - Coursera (Issued November 2023)</li>
-                </ul>
-            </div>
-
-            <!-- Skills -->
-            <div class="resume-section">
-                <h3>Skills</h3>
-                <div class="skill-list">
-                    <span>Effective Communication</span>
-                    <span>Negotiation Skills</span>
-                    <span>Analytical Thinking</span>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <div class="social-icons">
-            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
         </div>
-        <p>© 2024 My Website. All rights reserved.</p>
-    </footer>
-</body>
-</html>
-```
 
-#### 4. **contact.html** (Contact page)
+        <div class="resume-section">
+            <h3>Skills</h3>
+            <div class="skill-list">
+                <span>Customer Service</span>
+                <span>Java Programming</span>
+                <span>Web Design</span>
+                <span>Team Management</span>
+                <span>Strategic Planning</span>
+                <span>Communication</span>
+                <span>Problem-Solving</span>
+            </div>
+        </div>
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
-<body>
-    <!-- Header -->
-    <header>
-        <h1>Contact Me</h1>
-        <nav>
+        <div class="resume-section">
+            <h3>Certifications</h3>
             <ul>
-                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-                <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
-                <li><a href="resume.html"><i class="fas fa-briefcase"></i> Resume</a></li>
-                <li><
+                <li>Java Programming Certification - Issuer Name</li>
+                <li>Project Management Certification - Issuer Name</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>Connect with me on social media:</p>
+        <ul>
+            <li><a href="https://twitter.com/iamemaxx" target="_blank">Twitter</a></li>
+            <li><a href="https://instagram.com/iam_emaxx" target="_blank">Instagram</a></li>
+            <li><a href="https://linkedin.com/in/emmanuel-odejobi-30826a1b6" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/emaxxify" target="_blank">GitHub</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
