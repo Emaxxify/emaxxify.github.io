@@ -3,23 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Personal Website</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
         <h1>Welcome to My Website</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="resume.html"><i class="fas fa-briefcase"></i> Resume</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- Main content -->
     <main>
         <section>
             <h2>Home Page</h2>
@@ -27,11 +29,22 @@
         </section>
     </main>
 
+    <!-- Footer -->
     <footer>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
         <p>© 2024 My Website. All rights reserved.</p>
     </footer>
 </body>
 </html>
+```
+
+#### 2. **about.html** (About Me page)
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,20 +52,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
         <h1>About Me</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="resume.html"><i class="fas fa-briefcase"></i> Resume</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- Main content -->
     <main>
         <section>
             <h2>My Story</h2>
@@ -60,70 +76,68 @@
         </section>
     </main>
 
+    <!-- Footer -->
     <footer>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
         <p>© 2024 My Website. All rights reserved.</p>
     </footer>
 </body>
 </html>
+```
 
+#### 3. **resume.html** (Resume page)
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+    <title>My Resume</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
         <h1>My Resume</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="resume.html"><i class="fas fa-briefcase"></i> Resume</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- Main content -->
     <main>
         <section id="resume">
             <h2>Resume</h2>
 
+            <!-- Work Experience -->
             <div class="resume-section">
                 <h3>Work Experience</h3>
                 <ul>
                     <li>
                         <p class="job-title">Senior Customer Service Associate - Sporty Internet Limited</p>
                         <p class="job-duration">October 2022 - Present</p>
-                        <p>Lead a team of customer support officers, providing mentorship, training, and performance feedback to ensure the delivery of high-quality customer service.</p>
-                        <p>Managed customer queries via email and live chat, boosting business performance by resolving issues promptly.</p>
-                        <p>Developed long-lasting relationships with clients through effective communication, ensuring customer retention.</p>
-                        <p>Awarded monthly for exceptional performance in meeting and exceeding customer service metrics.</p>
+                        <p>Lead a team of customer support officers, providing mentorship, training, and performance feedback to ensure high-quality customer service.</p>
                     </li>
                     <li>
                         <p class="job-title">Offline Manager/Field Marketer - Jiji.ng</p>
                         <p class="job-duration">January 2022 - August 2022</p>
-                        <p>Registered and managed sellers from diverse sectors, promoting subscription packages to increase sales.</p>
-                        <p>Consistently exceeded weekly and monthly sales targets by leveraging strong client relationships and interactive communication.</p>
-                        <p>Developed and maintained strong relationships with clients to drive business performance.</p>
-                    </li>
-                    <li>
-                        <p class="job-title">Customer Service/Collections Officer - Bestfin Micro-Finance Bank (iCredit Nigeria)</p>
-                        <p class="job-duration">March 2022 - August 2022</p>
-                        <p>Handled a high volume of inbound and outbound customer calls, resolving complaints and inquiries efficiently to enhance customer satisfaction.</p>
-                        <p>Maintained CRM database with up-to-date customer account information.</p>
-                    </li>
-                    <li>
-                        <p class="job-title">Loan Recovery Officer - BlueRidge Micro-Finance Bank (KashKash Nigeria)</p>
-                        <p class="job-duration">October 2020 - December 2021</p>
-                        <p>Negotiated payment plans for customers, surpassing collection quotas and securing payments through effective communication.</p>
-                        <p>Made over 100 outbound calls daily to follow up on customer repayments.</p>
+                        <p>Registered and managed sellers from various sectors, promoting subscription packages to increase sales.</p>
                     </li>
                 </ul>
             </div>
 
+            <!-- Education -->
             <div class="resume-section">
                 <h3>Education</h3>
                 <ul>
@@ -132,53 +146,49 @@
                         <p class="education-institution">Ahmadu Bello University</p>
                     </li>
                     <li>
-                        <p class="education-degree">Bachelor of Science in Political Science</p>
+                        <p class="education-degree">B.Sc in Political Science</p>
                         <p class="education-institution">Obafemi Awolowo University</p>
                     </li>
                 </ul>
             </div>
 
+            <!-- Certifications -->
             <div class="resume-section">
                 <h3>Certifications</h3>
                 <ul>
                     <li>CSM Fundamentals - CustomerSuccessU.org (Issued August 2024)</li>
                     <li>Create Customer Support Data with Google Sheets - Coursera (Issued November 2023)</li>
-                    <li>Introduction to Microsoft Excel - Coursera (Issued November 2023)</li>
-                    <li>Google Digital Marketing Certification</li>
-                    <li>NYSC Certification</li>
                 </ul>
             </div>
 
+            <!-- Skills -->
             <div class="resume-section">
                 <h3>Skills</h3>
                 <div class="skill-list">
                     <span>Effective Communication</span>
                     <span>Negotiation Skills</span>
                     <span>Analytical Thinking</span>
-                    <span>Relationship Building</span>
-                    <span>Customer Focus</span>
-                    <span>Emotional Intelligence</span>
-                    <span>Problem-solving</span>
-                    <span>Team Collaboration</span>
-                    <span>Microsoft Office</span>
-                    <span>CRM Management</span>
-                    <span>Data Analytics</span>
-                    <span>Affiliate Marketing</span>
-                    <span>Performance Marketing</span>
-                    <span>Negotiation & Partnership Management</span>
-                    <span>SEO & Content Optimization</span>
-                    <span>Project Management</span>
-                    <span>Conversion Rate Optimization</span>
                 </div>
             </div>
         </section>
     </main>
 
+    <!-- Footer -->
     <footer>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
         <p>© 2024 My Website. All rights reserved.</p>
     </footer>
 </body>
 </html>
+```
+
+#### 4. **contact.html** (Contact page)
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -186,29 +196,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
         <h1>Contact Me</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section>
-            <h2>Get in Touch</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-               
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="resume.html"><i class="fas fa-briefcase"></i> Resume</a></li>
+                <li><
